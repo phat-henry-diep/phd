@@ -1,0 +1,888 @@
+<!DOCTYPE HTML>
+<html data-bs-theme="light">
+
+<head>
+	 <title>Phat Henry Diep</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href=../asset/css/base.css>
+	<link rel="stylesheet" href=../asset/css/main.css>
+	<link rel="stylesheet" href=../asset/css/responsive.css> 
+  <link rel="shortcut icon" type="image/png" href="../asset/media/Phat.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    table {
+      margin: 2rem auto;          /* center horizontally */
+      width: auto;
+      max-width: 100%;
+      border-collapse: collapse;
+    }
+    .cite-link {
+      text-decoration: none;
+      color: var(--bs-link-color);
+    }
+
+    .cite-link:hover {
+      text-decoration: underline;
+    }
+    table caption {
+      caption-side: top;
+      text-align: center;
+      font-weight: 600;
+      color: var(--bs-link-color-rgb);
+      margin-bottom: 0.75rem;
+    }
+
+    table th,
+    table td {
+      padding: 0.6rem 0.9rem;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    table th {
+      border-bottom: 2px solid #333;
+    }
+
+    table td {
+      border-bottom: 1px solid #ddd;
+    }
+    main {
+      counter-reset: section;
+    }
+    main p {
+      text-align: justify;
+    }
+    main h1{
+      font-weight: 900;
+    }
+    /* Number h2: 1, 2, 3, ... */
+    main h2 {
+      counter-reset: subsection;
+      font-size: 1.35rem;
+      font-weight: 800;
+      margin-top: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Subsections */
+    main h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-top: 1.6rem;
+      margin-bottom: 0.8rem;
+    }
+
+    /* Sub-subsections */
+    main h4 {
+      counter-reset: subsubsection;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1.2rem;
+      margin-bottom: 0.6rem;
+    }
+
+
+    main h2::before {
+      counter-increment: section;
+      content: counter(section) ". ";
+      /* font-weight: 600; */
+    }
+
+    /* Number h3: 1.1, 1.2, ... */
+    main h3::before {
+      counter-increment: subsection;
+      content: counter(section) "." counter(subsection) " ";
+    }
+
+    main h4::before {
+      counter-increment: subsubsection;
+      content: counter(section) "." counter(subsection) "." counter(subsubsection) " ";
+    }
+  </style>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid flex-lg-column">
+			  <a class="navbar-brand" href="../about.html"> <strong> PHAT (HENRY) DIEP </strong></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon-light" data-bs-theme=dark></span>
+    		  </button>
+    		  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    		    <div class="offcanvas-header">
+    		      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+    		      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    		    </div>
+    		    <div class="offcanvas-body">
+    		      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+    		          <li class="nav-item">
+						<a class="nav-link" aria-current="page" href="../about.html"> <strong> About Me</strong></a>
+    		          <li class="nav-item">
+						<a class="nav-link" target="_blank" href="asset/media/CV.pdf"> <strong> CV</strong></a>
+					  <li class="nav-item">
+						<a class="nav-link" href="../work.html"><strong> Work Experience</strong></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="../research.html"><strong> Research Papers</strong></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link"  target="_blank" href="https://www.linkedin.com/in/phat-henry-diep/"> <strong> LinkedIn </strong></a>
+					  </li>
+					  <li class="nav-item"></li>
+					  </li>
+					</ul>
+					<div class="d-none d-lg-block form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="darkModeSwitch" checked>
+						<label class="form-check-label" for="darkModeSwitch">
+							<!-- <i class="bi bi-sun-fill" ></i> -->
+							<i class="bi bi-moon-fill nav-link"></i>
+						</label>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</nav>
+	</header>
+
+<main class="main">
+<div class="content">
+  <h1>The Predictive Power of Options: Implied Volatility and Volume Dynamics Around Corporate Earnings</h1>
+  <strong>Phat Diep</strong><br />
+  <em>Carnegie Mellon University in Qatar</em><br />
+  </p>
+  <div class="text-center my-3">
+    <a href="The_Predictive_Power_of_Options.pdf"
+      class="btn btn-outline-primary btn-sm"
+      target="_blank"
+      download>
+      <i class="bi bi-file-earmark-pdf"></i> Download Paper (PDF)
+    </a>
+  </div>
+  <h2 id="asbtract">Abstract</h2>
+  <p>This study investigates the extent to which pre-earnings announcement options market signals effectively predict stock returns post-announcement. Using a dataset of 38,121,908 options contracts for the 100 most liquid firms listed on the New York Stock Exchange from 2001–2023, we evaluate four option-based indicators: Volume-to-Open-Interest ratio, changes in Put/Call ratio, Implied-Volatility Spread, and Max Pain strike. These features are selected to capture investor sentiment, informed trading activity, and short-term price-pressure dynamics. We found that indicators like volume-to-open-interest and implied-volatility spread one day before the earnings days are correlated with post-announcement, indicating that options incorporate forward-looking information. Utilizing the two most significant features, the Volume-to-Open-Interest ratio and absolute options volume, we develop a machine-learning model based on data from the Q2:2001 to the Q4:2019 and assess its performance during an out-of-sample period from Q1:2020 to Q3:2023. The strategy generates an annualized return of 24.9% while allocating approximately 5% of capital per position, with each trade held for only one day. Ultimately, the results from paired t-tests demonstrate consistent changes in Max Pain levels in proximity to earnings announcements, suggesting short-term equilibrium adjustments within the options markets. Overall, the findings demonstrate that options contain economically meaningful information for predicting earnings-related stock price movements.</p>
+  <p><em>Keywords:</em> corporate events, earnings calls, event-driven trading, implied volatility, option pricing, option price dynamics</p>
+
+  <h2 id="introduction">Introduction</h2>
+  <p>
+  The options market has long intrigued both investors and academics due to the valuable
+  insights it provides about future market expectations. A substantial body of literature
+  demonstrates the informativeness of options data through a range of information-based
+  measures, such as option volume (Ge, Lin, and Pearson, 2016), implied volatility (Donders,
+  Kouwenberg, and Vorst, 2000; Mayhew, 1995; Atilgan, 2014), risk-neutral skewness (Chordia,
+  Lin, and Xiang, 2020), option-to-stock volume ratios (Johnson and So, 2012; Lin and Lu,
+  2015), and strike-spot structures (Bernile, Gao, and Hu, 2017). Collectively, these studies
+  raise a central question: To what degree do option traders integrate private or anticipatory
+  information about major corporate disclosures such as earnings announcements?
+  </p>
+
+  <p>
+  Earnings announcements provide an ideal setting for studying informational dynamics
+  in the options market, because scheduled disclosures create a timed window for information
+  dissemination. Kim and Verrecchia (1994) show that when investors possess information
+  about the timing of a public disclosure, trading behavior changes systematically: while
+  informed traders strategically increase their positions before the announcement,
+  uninformed traders reduce participation. This pre-announcement window, characterized
+  by heightened information asymmetry, creates an incentive for informed investors to
+  trade. Chae (2005) similarly finds that cumulative trading volume declines by approximately
+  15 percent prior to scheduled announcements as uninformed traders temporarily withdraw
+  from the market. As a result, pre-earnings signals can be used to detect whether options
+  markets capture asymmetric information and forecast earnings-related price reactions.
+  </p>
+
+  <p>
+  According to recent studies, the way information is incorporated into prices is determined
+  by the structure and volume of option trading activity rather than the mere existence of
+  listed options. Truong and Corrado (2014) present evidence indicating that firms with
+  elevated pre-announcement option volume exhibit significant anticipatory price
+  adjustments, implying that options activity incorporates information regarding forthcoming
+  earnings results. The volume of options trading, along with related market attributes,
+  directly reflects the informational environment surrounding pre-announced corporate
+  events.
+  </p>
+
+  <p>Despite this extensive literature, the predictive value of within-options signals—those derived purely from the internal structure and behavior of option chains—remains underexplored. Previous research generally analyzes single indicators (such as skew, volume, or volatility) in isolation or rely on cross-market comparisons between options and the underlying equity. We aim to addresses this gap by asking two primary research questions:</p>
+  <ol>
+  <li><p>Do pre-earnings option-market characteristics predict the stock price reaction to earnings announcements?</p></li>
+  <li><p>Which features—volatility-based, sentiment-based, or volume-based—contain the strongest and most reliable predictive information?</p></li>
+  </ol>
+  <p>There are three contributions this paper offers. First, it provides large-sample evidence that the call–put implied volatility spread is a significant predictor of earnings-day returns, confirming that pre-announcement volatility demand conveys directional information. Second, it develops and validates an intensity-based abnormal volume measure (Volume/OI) that generates economically meaningful and robust out-of-sample predictions. Third, it demonstrates that the Max Pain equilibrium shifts significantly at earnings, indicating that major disclosures disrupt dealer-based hedging equilibria.</p>
+  <p>The remainder of the paper proceeds as follows. Section <a href="#hypotheses" data-reference-type="ref" data-reference="hypotheses">2</a> develops the hypotheses. Section <a href="#data" data-reference-type="ref" data-reference="data">3</a> describes the data. Section <a href="#methodology" data-reference-type="ref" data-reference="methodology">4</a> outlines the empirical methodology. Section <a href="#findings" data-reference-type="ref" data-reference="findings">5</a> presents the results. Section <a href="#conclusion" data-reference-type="ref" data-reference="conclusion">6</a> concludes.</p>
+  <h2 id="hypotheses">Hypothesis Development</h2>
+  <p>Earnings announcements create short-lived periods of elevated uncertainty and information asymmetry. The options market’s leverage, convexity, and low cost of expressing directional views make it an ideal setting for informed trading because knowledgeable investors have incentives to take advantage of confidential or anticipatory information prior to disclosure <span class="citation" data-cites="Black1975 KimVerrecchia1994"></span>. This section develops the hypotheses examined in this study and describes the theoretical mechanisms that connect pre-earnings option-market behavior to subsequent announcement-day stock returns.</p>
+  <h3 id="abnormal-option-activity-and-informed-trading">Abnormal Option Activity and Informed Trading</h3>
+  <p><span class="citation" data-cites="TruongCorrado2014"></span> suggest that heightened options trading volume in the pre-announcement period may indicate the extent to which informed traders are capable of acting upon their private signals. In this study, anomalous trading intensity is measured through both absolute option volume and the Volume/Open Interest (Volume/OI) ratio, which distinguishes whether trading activity indicates significant new positioning rather than ordinary hedging operations. Large deviations in Volume/OI signal that traders are initiating fresh positions at a scale disproportionate to existing contract depth—consistent with informed trading, event-driven speculation, or both. If informed traders participate more actively ahead of earnings, then option-based abnormal activity should contain predictive information about the subsequent return reaction when the earnings news is released.</p>
+  <p><strong>Hypothesis 1 (H1): Abnormal Volume and Volume/OI.</strong> <em>Abnormally high pre-earnings option trading activity—measured by Volume/OI ratios and absolute volume—predicts higher earnings-day stock returns.</em></p>
+  <h3 id="putcall-activity-and-sentiment-imbalance">Put–Call Activity and Sentiment Imbalance</h3>
+  <p>The Put/Call Ratio (PCR) is a market-based sentiment measure that captures relative demand for downside vs. upside exposure. A high ratio reflects comparatively greater put activity (bearish sentiment), while a low ratio reflects greater call activity (bullish sentiment). Prior research on option-volume signals <span class="citation" data-cites="PanPoteshman2006"></span> shows that PCR constructed from buyer-initiated opening trades can embed meaningful information about short-horizon future stock returns, consistent with informed trading dynamics. Their result records that stocks exhibiting low put–call ratios outperform those with high put–call ratios by over 40 basis points the following day.</p>
+  <p><strong>Hypothesis 2 (H2): Put/Call Ratio.</strong> <em>Changes in the pre-earnings Put/Call Ratio contain information about short-horizon future stock returns and are expected to predict earnings-announcement-day price reactions.</em></p>
+  <h3 id="implied-volatility-skew-and-directional-information">Implied Volatility Skew and Directional Information</h3>
+  <p>The Implied Volatility Spread, defined as the difference between call IV and put IV at the strike level (IV Call – IV Put), serves as a direct, real-time measure of earnings-specific directional sentiment and positioning in the options market. The core hypothesis is that this measure will correctly capture informed investor sentiment as bullish or bearish:</p>
+  <ul>
+  <li><p><strong>High Positive IV Spread (<span class="math inline">\(IV^{\text{call}} &gt; IV^{\text{put}}\)</span>):</strong> Bullish prediction.</p></li>
+  <li><p><strong>Low (Negative) IV Spread (<span class="math inline">\(IV^{\text{call}} &lt; IV^{\text{put}}\)</span>):</strong> Bearish prediction.</p></li>
+  </ul>
+  <p><span class="citation" data-cites="JinLivnatZhang2012"></span> show that implied-volatility-based measures such as volatility spreads and skews predict short-window stock returns around earnings, and that this predictability intensifies in the days immediately preceding the announcement. When the call–put implied volatility spread widens, it signifies asymmetric demand for upside versus downside protection, consistent with informed traders positioning themselves in anticipation of earnings news.</p>
+  <p>A wide bullish call–put implied volatility spread suggests that market participants are either purchasing calls (speculating on substantial upward movement) or selling puts (diminishing downside protection, anticipating that the support level will remain intact). A low or negative spread implies the opposite, with market participants buying puts (demanding more insurance against a negative surprise) or selling calls (unwilling to pay for upside exposure).</p>
+  <p><strong>Hypothesis 3 (H3): Implied Volatility Spread.</strong> <em>A higher pre-earnings call–put implied volatility spread predicts a higher earnings-day stock return.</em></p>
+  <h3 id="max-pain-equilibrium">Max Pain Equilibrium</h3>
+  <p>The Max Pain framework states that market makers, who are generally net short options, possess hedging motivations that establish a pre-event equilibrium near the strike price, thereby minimizing their aggregate payout. A major information event such as an earnings announcement can disrupt this equilibrium: new information changes hedging demands, shifts option-implied equilibrium strikes, and moves prices away from pre-announcement Max Pain levels. If earnings announcements convey material new information, the relative Max Pain strike should shift in a statistically detectable manner.</p>
+  <p><strong>Hypothesis 4 (H4): Max Pain Shift.</strong> <em>The Max Pain strike, normalized by the stock price, changes significantly from the day before earnings to the announcement day, reflecting a disruption of the pre-event options equilibrium.</em></p>
+  <h2 id="data">Data</h2>
+  <p>The empirical analysis draws on daily option-chain data from OptionMetrics and earnings announcement information from Bloomberg for the largest 100 U.S. firms by current market capitalization. The sample spans 2001–2023 and covers 6<span>,</span>592 earnings announcements. For each event, I collect all available option observations over the six trading days preceding the announcement (from <span class="math inline">\(T-6\)</span> to <span class="math inline">\(T-1\)</span>), yielding approximately 38.1 million filtered contract-level observations and more than 297 million raw option quotes.</p>
+  <p>To construct a consistent and reliable dataset, four filtering steps are applied. First, only options with expiration dates at least 30 days following the earnings announcement are retained to prevent distortions caused by very short-term contracts. Second, each daily option-chain snapshot must include both calls and puts at a minimum of five distinct strike prices, thereby ensuring sufficient cross-sectional depth for implied volatility and Max Pain assessments. Third, observations with inaccurate prices, lacking Greeks, or zero trading volume are excluded. Finally, each earnings event is matched with a corresponding earnings surprise measure, defined as the difference between actual and consensus EPS.</p>
+  <p>Table <a href="#tab:features" data-reference-type="ref" data-reference="tab:features">1</a> provides an overview of the quantitative variables extracted from the option chains and used in the analysis. From these cleaned option chains, I construct several option-based predictors used in the empirical tests, including the call–put implied volatility spread, daily changes in put–call ratios based on both volume and open interest, the Max Pain strike normalized by underlying price, and two measures of abnormal trading activity (absolute option volume and the Volume/Open Interest ratio).</p>
+  <div id="tab:features">
+  <table>
+      <caption>
+        <strong>Table 1:</strong> Variables
+      </caption>
+  <thead>
+  <tr class="header">
+  <th style="text-align: left;"><strong>Feature</strong></th>
+  <th style="text-align: left;"><strong>Description</strong></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: left;">Ticker</td>
+  <td style="text-align: left;">Stock symbol</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Earnings Date</td>
+  <td style="text-align: left;">Scheduled earnings announcement date</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Option Expiration Date</td>
+  <td style="text-align: left;">Contract expiration date</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Quoted Date</td>
+  <td style="text-align: left;">Date of option quote</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Call/Put Flag</td>
+  <td style="text-align: left;">Indicator for option type</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Strike (<span class="math inline">\(K\)</span>)</td>
+  <td style="text-align: left;">Strike price</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Open Interest (<span class="math inline">\(OI\)</span>)</td>
+  <td style="text-align: left;">Number of outstanding contracts</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Volume (<span class="math inline">\(V\)</span>)</td>
+  <td style="text-align: left;">Number of contracts traded</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Delta (<span class="math inline">\(\Delta\)</span>)</td>
+  <td style="text-align: left;">Sensitivity to underlying price</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Vega (<span class="math inline">\(\nu\)</span>)</td>
+  <td style="text-align: left;">Sensitivity to implied volatility</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Gamma (<span class="math inline">\(\Gamma\)</span>)</td>
+  <td style="text-align: left;">Rate of change of delta</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Theta (<span class="math inline">\(\Theta\)</span>)</td>
+  <td style="text-align: left;">Time decay of option value</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Implied Volatility (<span class="math inline">\(\sigma_{imp}\)</span>)</td>
+  <td style="text-align: left;">Market-implied forecast of volatility</td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+  <p>This large and highly liquid dataset provides a suitable environment for examining informed trading and price discovery ahead of earnings announcements.</p>
+  <h2 id="methodology">Methodology</h2>
+  <p>This section describes the construction of all option-based predictors, the return definitions used to quantify earnings-related price reactions, and the empirical procedures used to test the four hypotheses developed in Section <a href="#hypotheses" data-reference-type="ref" data-reference="hypotheses">2</a>. To align the research design with the structure of the empirical analysis, the methodology is organized into four subsections corresponding to: (1) Abnormal Option Activity and Volume/OI, (2) Put/Call Ratio Changes, (3) Implied Volatility Spread, and (4) Max Pain Shift.</p>
+  <h3 id="abnormal-option-activity-and-volumeoi">Abnormal Option Activity and Volume/OI</h3>
+  <h4 id="activity-measures">Activity Measures</h4>
+  <p>Abnormal trading activity is quantified using: <span class="math display">\[V_{t} = \text{Total Option Volume}_{t},
+  \qquad
+  VOI_{t} = \frac{\text{Total Option Volume}_{t}}{\text{Total Open Interest}_{t}}.\]</span> These measures identify unusually large trading pressure relative to pre-existing option depth.</p>
+  <h4 id="grid-search-signal-construction">Grid-Search Signal Construction</h4>
+  <p>A trading signal is generated on day <span class="math inline">\(t&lt;T\)</span> when both: <span class="math display">\[V_{t} &gt; \theta_{\text{V}}
+  \quad\text{and}\quad
+  VOI_{t} &gt; \theta_{\text{VOI}}.\]</span> where <span class="math inline">\(\theta_{VOI}\)</span> represents the thresholds for volume/open interest ratio and <span class="math inline">\(\theta_{V}\)</span> represents the thresholds for total options volume above which a trade is executed. A long position is opened at the mid-price on the signal day and closed at the mid-price on day <span class="math inline">\(T+1\)</span>.</p>
+  <h4 id="traintest-design">Train–Test Design</h4>
+  <p>Three train–test frameworks are used:</p>
+  <ul>
+  <li><p><strong>Scenario A:</strong> The model is trained on data from 2001–2019 and tested on data from 2020–2023, using the event window one day before the earning <span class="math inline">\([T-1, T)\)</span>.</p></li>
+  <li><p><strong>Scenario B:</strong> The model is trained on data from 2001–2019 and tested on data from 2020–2023, using the event window four days before the earning <span class="math inline">\([T-4, T-1]\)</span>.</p></li>
+  <li><p><strong>Scenario C:</strong> The model is trained on data from 2001–2014 and tested on data from 2015–2023, using the event window one day before the earning <span class="math inline">\([T-1, T)\)</span>.</p></li>
+  </ul>
+  <p>For each scenario, a two-dimensional grid search over <span class="math inline">\(( \theta_{\text{V}},\theta_{\text{VOI}})\)</span> identifies the threshold combination that maximizes mean returns in the training sample.</p>
+  <h4 id="performance-metrics">Performance Metrics</h4>
+  <p>Test-period profitability is evaluated using:</p>
+  <ul>
+  <li><p>average gross return across trades,</p></li>
+  <li><p>annualized return (256 trading days),</p></li>
+  <li><p>standard deviation of trade-level returns,</p></li>
+  <li><p>number of qualifying signals.</p></li>
+  </ul>
+  <h4 id="interpretation-of-abnormal-activity">Interpretation of Abnormal Activity</h4>
+  <p>An increase in trading volume relative to open interest is perceived as an indication that new information is entering the market, signifying informed trading or speculative activity prior to earnings announcements. This interpretation justifies the application of <span class="math inline">\(V\)</span> and <span class="math inline">\(VOI\)</span> as filters within the grid-search methodology, as significant deviations in trading intensity may indicate information-driven positioning or increased speculation.</p>
+  <h4 id="out-of-sample-robustness-analysis">Out-of-Sample Robustness Analysis</h4>
+  <p>To ensure that the trading strategy does not rely on in-sample overfitting, the grid-search procedure is explicitly designed to evaluate out-of-sample robustness. The analysis uses multiple non-overlapping train–test splits that vary both the calibration period and the size of the pre-announcement window:</p>
+  <ol>
+  <li><p>Comparing short-window (<span class="math inline">\(T-1\)</span>) and multi-day (<span class="math inline">\(T-4\)</span> to <span class="math inline">\(T-1\)</span>) signal horizons,</p></li>
+  <li><p>Assessing temporal stability by training on an earlier subsample (2001–2014) and testing on a later, structurally different market environment (2015–2023).</p></li>
+  </ol>
+  <p>This design allows the strategy to be evaluated across: (i) different market regimes, (ii) changes in option market structure, and (iii) variation in the frequency of abnormal activity events. Persistence of profitability across these distinct test samples provides evidence that identified signals are not artifacts of a single historical period but instead reflect systematic and repeatable relationships between abnormal pre-earnings option activity and subsequent price movements.</p>
+  <h3 id="putcall-ratio-changes">Put/Call Ratio Changes</h3>
+  <h4 id="construction-of-pcr-measures">Construction of PCR Measures</h4>
+  <p>Two forms of the Put/Call Ratio (PCR) are constructed:</p>
+  <p><span class="math display">\[PCR^{\text{vol}}_{t} = \frac{\text{Put Volume}_{t}}{\text{Call Volume}_{t}}, \qquad
+  PCR^{\text{OI}}_{t} = \frac{\text{Put OI}_{t}}{\text{Call OI}_{t}}.\]</span></p>
+  <p>Daily options volume changes prior to earnings are captured by: <span class="math display">\[\Delta PCR_{t} = PCR_{t} - PCR_{t-1}, \qquad t \in \{T-6, \dots, T-1\}.\]</span></p>
+  <h4 id="regression-specification">Regression Specification</h4>
+  <p>To evaluate Hypothesis 2, the earnings-day reaction return is regressed on the five lagged daily changes in PCR: <span class="math display">\[R= \beta_0 + \sum_{i=1}^{5} \beta_i\, \Delta PCR_{T-i} + \varepsilon.\]</span> where <span class="math inline">\(R = \frac{P_{T}}{P_{T-1}}-1\)</span> and <span class="math inline">\(T\)</span> is the earning date. Separate regressions are run for volume-based and open-interest–based PCR. HC3 standard errors are used, and the joint significance of the PCR changes is assessed using the model’s <span class="math inline">\(F\)</span>t-statistic.</p>
+  <h4 id="distributional-considerations">Distributional Considerations</h4>
+  <p>Consistent with the empirical analysis, PCR data exhibit heavy-tailed distributions. No winsorization or truncation is applied, as the methodology is designed to match the empirical results presented in Section <a href="#findings" data-reference-type="ref" data-reference="findings">6</a>.</p>
+  <h3 id="implied-volatility-spread">Implied Volatility Spread</h3>
+  <h3 id="definition-and-interpretation-of-iv-spread">Definition and Interpretation of IV Spread</h3>
+  <p>The Implied Volatility Spread is designed to measure earnings-specific directional sentiment embedded in the options market. At the strike level, it is defined as: <span class="math display">\[\text{IVSpread}_{i,k,t} = IV^{\text{call}}_{i,k,t} - IV^{\text{put}}_{i,k,t}.\]</span> A positive spread (<span class="math inline">\(IV^{\text{call}} &gt; IV^{\text{put}}\)</span>) reflects more expensive calls relative to puts and is interpreted as bullish positioning. A negative spread indicates bearish sentiment, typically due to increased demand for puts or lower willingness to pay for upside exposure.</p>
+  <h4 id="construction-of-event-level-iv-spread">Construction of Event-Level IV Spread</h4>
+  <p>For each strike <span class="math inline">\(k\)</span>, and pre-earnings day <span class="math inline">\(t\)</span>, implied volatilities for calls and puts are denoted by <span class="math inline">\(IV^{\text{call}}_{k,t}\)</span> and <span class="math inline">\(IV^{\text{put}}_{k,t}\)</span>. To aggregate across the option chain in a manner that reflects economically relevant positioning, open-interest–weighted implied volatilities are computed:</p>
+  <p><span class="math display">\[IV^{\text{call}}_{t}=\frac{\sum_k IV^{\text{call}}_{k,t} \cdot OI_{k,t}}{\sum_k OI_{k,t}}, \qquad
+  IV^{\text{put}}_{t}=\frac{\sum_k IV^{\text{put}}_{k,t} \cdot OI_{k,t}}{\sum_k OI_{k,t}}.\]</span></p>
+  <p>To ensure reliability, a minimum of five unique strike prices per event-day is required, and call and put data must be simultaneously available.</p>
+  <p>The event-level predictor used for Hypothesis 1 is the difference between the open-interest–weighted call and put IVs on the last trading day before the announcement: <span class="math display">\[\text{IVSpread}_{T-1} = IV^{\text{call}}_{T-1} - IV^{\text{put}}_{T-1}.\]</span></p>
+  <h4 id="return-definitions">Return Definitions</h4>
+  <p>Let <span class="math inline">\(P_i\)</span> denote the closing price of the underlying stock on day <span class="math inline">\(i\)</span>. Two non-overlapping return windows are used:</p>
+  <h4 id="pure-reaction-return">Pure Reaction Return</h4>
+  <p><span class="math display">\[R^{\text{react}} = \left(\frac{P_{T}}{P_{T-1}}-1\right),\]</span> capturing the immediate earnings-day price response.</p>
+  <h4 id="pure-drift-return">Pure Drift Return</h4>
+  <p><span class="math display">\[R^{\text{drift}} = \left(\frac{P_{T+1}}{P_{T}}-1\right),\]</span> capturing the post-announcement next-day drift.</p>
+  <h4 id="cross-sectional-regression-specification">Cross-Sectional Regression Specification</h4>
+  <p>Predictive content is evaluated using the following cross-sectional regression: <span class="math display">\[R = \beta_0 + \beta_1 \text{IVSpread}_{T-1} + \varepsilon,\]</span> where <span class="math inline">\(R\)</span> denotes either the reaction or drift return. Heteroskedasticity-consistent (HC3) standard errors are used for inference.</p>
+  <h4 id="quantile-sort-procedure">Quantile Sort Procedure</h4>
+  <p>To evaluate economic magnitude, all events are sorted into quintiles based on <span class="math inline">\(\text{IVSpread}_{i,T-1}\)</span>. For each quintile, the average return is computed. The principal statistic of interest is the long–short portfolio: <span class="math display">\[\text{L/S} = Q5 - Q1,\]</span> which measures the directional strength of the options market’s pre-announcement sentiment.</p>
+  <h3 id="max-pain-shift">Max Pain Shift</h3>
+  <h4 id="construction-of-the-max-pain-measure">Construction of the Max Pain Measure</h4>
+  <p>For each firm and day <span class="math inline">\(t\)</span>, the Max Pain strike <span class="math inline">\(MP_{t}\)</span> is calculated as the strike that minimizes the total payout to holders of outstanding puts and calls at expiration. To ensure comparability across firms with different price levels, Max Pain is normalized by the daily closing price:</p>
+  <p><span class="math display">\[MP^{\text{norm}}_{t} = \frac{MP_{t}}{\text{Close Price}_{t}}.\]</span></p>
+  <h4 id="measuring-the-earnings-driven-shift">Measuring the Earnings-Driven Shift</h4>
+  <p>To quantify how earnings announcements affect the Max Pain equilibrium, the change in normalized Max Pain around earnings is computed as:</p>
+  <p><span class="math display">\[\Delta MP = MP^{\text{norm}}_{T} - MP^{\text{norm}}_{T-1},\]</span></p>
+  <p>where <span class="math inline">\(T\)</span> denotes the earnings announcement day and <span class="math inline">\(T-1\)</span> the trading day immediately before it. A positive value of <span class="math inline">\(\Delta MP\)</span> indicates that the Max Pain equilibrium rises relative to the closing price on the announcement day.</p>
+  <h4 id="statistical-test">Statistical Test</h4>
+  <p>The analysis employs a paired <span class="math inline">\(t\)</span>-test to examine whether the earnings event produces a statistically significant shift in the normalized Max Pain level. The test compares Max Pain on the announcement day and the day before:</p>
+  <p><strong>Null Hypothesis</strong> <span class="math display">\[H_0: \mathbb{E}[MP^{\text{norm}}_{T}] = \mathbb{E}[MP^{\text{norm}}_{T-1}]\]</span></p>
+  <p><strong>Alternative Hypothesis</strong> <span class="math display">\[H_1: \mathbb{E}[MP^{\text{norm}}_{T}] \neq \mathbb{E}[MP^{\text{norm}}_{T-1}]\]</span></p>
+  <p>This procedure tests whether the earnings announcement disrupts the pre-event Max Pain equilibrium as implied by option market positioning and dealer hedging dynamics.</p>
+  <h2 id="findings">Empirical Findings</h2>
+  <h2 id="empirical-findings-volumeoi-strategy-performance">Empirical Findings: Volume/OI Strategy Performance</h2>
+  <p>The grid-search analysis identifies clear performance differences across the three train–test scenarios.</p>
+  <h3 id="scenario-a-signals-on-t-1-train-20012019-test-20202023">Scenario A: Signals on <span class="math inline">\(T-1\)</span> (Train 2001–2019; Test 2020–2023)</h3>
+  <p>The optimal training-sample thresholds are a Volume/OI ratio above 30 and daily volume exceeding 1,500 contracts. Applied to the 2020–2023 test period, these thresholds yield: annualized return: 24.9%, standard deviation: 4.316, number of trades: 487. Extreme activity on the day before the announcement provides the strongest predictive signal.</p>
+  <h3 id="scenario-b-signals-from-t-4-to-t-1-train-20012019-test-20202023">Scenario B: Signals from <span class="math inline">\(T-4\)</span> to <span class="math inline">\(T-1\)</span> (Train 2001–2019; Test 2020–2023)</h3>
+  <p>The optimal thresholds are a Volume/OI ratio above 20 and daily volume above 1,500. Applied out of sample, the strategy generates: annualized return: 5.9%, standard deviation: 2.944, number of trades: 1,447. While the wider window increases signal frequency, predictive power is substantially weaker.</p>
+  <h3 id="scenario-c-earlier-training-period-train-20012014-test-20152023">Scenario C: Earlier Training Period (Train 2001–2014; Test 2015–2023)</h3>
+  <p>Using an earlier training period produces the same optimal thresholds as Scenario A: Volume/OI above 30 and volume above 1,500. Applied to the 2015–2023 test period, results are: annualized return: 11.7%, standard deviation: 1.416, number of trades: 36. Although signals become infrequent in later years, their profitability remains high.</p>
+  <h3 id="summary">Summary</h3>
+  <figure class="figure" id="fig">
+    <img src="Cumulative Return.png" alt="Cumulative return for testing sets A, B, and C" />
+    <figcaption><strong>Figure 1: Cumulative Return for Testing Set A, B, C</strong></figcaption>
+  </figure>
+  <p>Figure <a href="#fig" data-reference-type="ref" data-reference="fig">1</a> illustrates cumulative returns for the three out-of-sample strategies, standardized to an initial portfolio value of 100. The cumulative return series consistently trend upward throughout their respective test periods, demonstrating that each threshold set produces economically significant gains when applied in real time. The trajectory for Scenario A is notably significant: aligning with its reported total return of 214.4%, the portfolio value more than triples from 2020 to 2023, exhibiting minimal periods of drawdown. When there is more noises (signal starting at T-4) Scenario B yields less, at 29.2% total return. Scenario C exhibits a more gradual and incremental pattern, indicative of reduced trade frequency in more recent years with 24.9% total gain recorded in <a href="#tab:table2" data-reference-type="ref" data-reference="tab:table2">Table 2</a>.</p>
+  <p>Across all scenarios, the strongest predictive content arises from extreme abnormal activity on <span class="math inline">\(T-1\)</span>. These results support <strong>Hypothesis 1</strong>: unusually high pre-earnings option trading activity predicts higher earnings-day stock returns, with the effect most concentrated immediately before the announcement.</p>
+  <div class="table-wrapper" id="tab:table2">
+      <table class="reg-table">
+        <caption>
+          <strong>Table 2:</strong> Volume/OI Strategy Threshold Performance Across Train/Test Splits
+        </caption>
+
+        <thead>
+          <tr>
+            <th style="text-align:left;">Metric</th>
+            <th>Train (A)</th>
+            <th>Test (A)</th>
+            <th>Train (B)</th>
+            <th>Test (B)</th>
+            <th>Train (C)</th>
+            <th>Test (C)</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="rule-top">
+            <td style="text-align:left;"><strong>Time</strong></td>
+            <td>2001-01-02 – 2019-12-23</td>
+            <td>2020-01-13 – 2023-08-31</td>
+            <td>2001-04-17 – 2019-12-23</td>
+            <td>2020-01-08 – 2023-08-31</td>
+            <td>2001-04-17 – 2021-12-22</td>
+            <td>2022-01-13 – 2023-08-31</td>
+          </tr>
+
+          <tr>
+            <td style="text-align:left;"><strong>Date to Earnings Window</strong></td>
+            <td>[T−1, T−0]</td>
+            <td>[T−1, T−0]</td>
+            <td>[T−4, T−0]</td>
+            <td>[T−4, T−0]</td>
+            <td>[T−1, T−0]</td>
+            <td>[T−1, T−0]</td>
+          </tr>
+
+          <tr>
+            <td style="text-align:left;"><strong>Observations</strong></td>
+            <td>7,222,040</td>
+            <td>5,098,807</td>
+            <td>13,250,256</td>
+            <td>9,520,565</td>
+            <td>9,921,808</td>
+            <td>2,399,039</td>
+          </tr>
+
+          <tr>
+            <td style="text-align:left;"><strong>Trade Condition*</strong></td>
+            <td><em>VOI</em> &gt; 30;<br><em>VOL</em> &gt; 1500</td>
+            <td><em>VOI</em> &gt; 30;<br><em>VOL</em> &gt; 1500</td>
+            <td><em>VOI</em> &gt; 20;<br><em>VOL</em> &gt; 1500</td>
+            <td><em>VOI</em> &gt; 20;<br><em>VOL</em> &gt; 1500</td>
+            <td><em>VOI</em> &gt; 30;<br><em>VOL</em> &gt; 1500</td>
+            <td><em>VOI</em> &gt; 30;<br><em>VOL</em> &gt; 1500</td>
+          </tr>
+
+          <tr>
+            <td style="text-align:left;"><strong>Number of Trades</strong></td>
+            <td>1,261</td>
+            <td>487</td>
+            <td>3,280</td>
+            <td>1,447</td>
+            <td>4,146</td>
+            <td>36</td>
+          </tr>
+
+          <tr>
+            <td style="text-align:left;"><strong>Total Return</strong></td>
+            <td>–</td>
+            <td>214.4%</td>
+            <td>–</td>
+            <td>29.2%</td>
+            <td>–</td>
+            <td>24.9%</td>
+          </tr>
+
+          <tr>
+            <td style="text-align:left;"><strong>Return (Annualized)**</strong></td>
+            <td>–</td>
+            <td>24.9%</td>
+            <td>–</td>
+            <td>5.1%</td>
+            <td>–</td>
+            <td>11.7%</td>
+          </tr>
+
+          <tr class="rule-bottom">
+            <td style="text-align:left;"><strong>Standard Deviation</strong></td>
+            <td>3.196</td>
+            <td>4.316</td>
+            <td>2.352</td>
+            <td>2.944</td>
+            <td>3.556</td>
+            <td>1.416</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="7" class="note">
+              <em>* If any option satisfies the trade condition, buy at mid-price and sell on T+1.</em>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="7" class="note">
+              <em>** Annualized using 256 trading days per year over the test period (e.g., 2020–2023).</em>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+  <h2 id="putcall-ratio">Put/Call Ratio</h2>
+  <p>The Put/Call Ratio (PCR) is a widely used indicator of market sentiment. A higher PCR indicates that more puts (bearish bets) are being traded or held than calls (bullish bets), signaling bearish sentiment.</p>
+  <p>There are two versions of the PCR studies, both of which are calculated as puts/calls:</p>
+  <ul>
+  <li><p><strong>Open Interest Delta PCR:</strong> Measures the change in the total number of outstanding contracts, reflecting accumulated positioning/long-term sentiment.</p></li>
+  <li><p><strong>Volume Delta PCR:</strong> Measures the change in the daily number of contracts traded, reflecting current trading activity/short-term sentiment.</p></li>
+  </ul>
+  <div class="table-wrapper">
+    <table class="reg-table">
+      <caption>
+        <strong>Table 3:</strong> Correlation of ΔPCR (Open Interest and Volume) with Earnings-Day Return
+      </caption>
+
+      <thead>
+        <tr>
+          <th></th>
+          <th>ΔPCR (Open Interest)</th>
+          <th>ΔPCR (Volume)</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr class="rule-top">
+          <td>No. Observations</td>
+          <td>6,085</td>
+          <td>6,085</td>
+        </tr>
+
+        <tr class="section">
+          <td><strong>Model Fit</strong></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>R-squared</td>
+          <td>0.001</td>
+          <td>0.012</td>
+        </tr>
+        <tr>
+          <td>Adj. R-squared</td>
+          <td>0.000</td>
+          <td>0.011</td>
+        </tr>
+        <tr>
+          <td>F-statistic</td>
+          <td>1.510</td>
+          <td>14.79</td>
+        </tr>
+        <tr class="rule-bottom">
+          <td>Prob (F-statistic)</td>
+          <td>0.183</td>
+          <td>1.88 × 10<sup>−14</sup></td>
+        </tr>
+
+        <tr class="section">
+          <td><strong>Coefficients</strong></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td>β<sub>0</sub></td>
+          <td>0.0044<br><span class="pval">(0.000)</span></td>
+          <td>0.0042<br><span class="pval">(0.000)</span></td>
+        </tr>
+
+        <tr>
+          <td>ΔPCR<sub>T−1</sub></td>
+          <td>0.0019<br><span class="pval">(0.573)</span></td>
+          <td>−3.96 × 10<sup>−13</sup><br><span class="pval">(0.014)</span></td>
+        </tr>
+
+        <tr>
+          <td>ΔPCR<sub>T−2</sub></td>
+          <td>0.0034<br><span class="pval">(0.108)</span></td>
+          <td>1.666 × 10<sup>−13</sup><br><span class="pval">(0.153)</span></td>
+        </tr>
+
+        <tr>
+          <td>ΔPCR<sub>T−3</sub></td>
+          <td>0.0042<br><span class="pval">(0.057)</span></td>
+          <td>−8.025 × 10<sup>−13</sup><br><span class="pval">(0.000)</span></td>
+        </tr>
+
+        <tr>
+          <td>ΔPCR<sub>T−4</sub></td>
+          <td>0.0034<br><span class="pval">(0.108)</span></td>
+          <td>1.687 × 10<sup>−13</sup><br><span class="pval">(0.107)</span></td>
+        </tr>
+
+        <tr class="rule-bottom">
+          <td>ΔPCR<sub>T−5</sub></td>
+          <td>0.0018<br><span class="pval">(0.607)</span></td>
+          <td>1.379 × 10<sup>−13</sup><br><span class="pval">(0.147)</span></td>
+        </tr>
+        <tr>
+          <td colspan="3"> <em>Note.</em> Values in parentheses denote <em>p</em>-values.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  
+  <h4 id="lack-of-predictive-power-in-delta-pcr-open-interest.">Lack of Predictive Power in <span class="math inline">\(\Delta PCR\)</span> (Open Interest).</h4>
+  <p>The open-interest specification provides no evidence that pre-earnings shifts in accumulated option positioning predict the announcement-day price reaction. The regression yields an <span class="math inline">\(R^2\)</span> of 0.001, and the <span class="math inline">\(F\)</span>-statistic (1.510) is statistically insignificant (<span class="math inline">\(p = 0.183\)</span>), indicating that the five lagged <span class="math inline">\(\Delta PCR\)</span> terms jointly explain essentially none of the cross-sectional variation in earnings-day returns. Individually, the coefficients are small in magnitude, alternate in sign, and are uniformly statistically insignificant, with <span class="math inline">\(p\)</span>-values ranging from 0.0034 to 0.001. This pattern suggests that changes in the put-to-call open-interest ratio do not embed forward-looking information about the earnings outcome.</p>
+  <h4 id="lack-of-predictive-power-in-delta-pcr-volume.">Lack of Predictive Power in <span class="math inline">\(\Delta PCR\)</span> (Volume).</h4>
+  <p>The volume-based <span class="math inline">\(\Delta PCR\)</span> measure yields an almost identical conclusion. The model’s <span class="math inline">\(R^2\)</span> remains at 0.012, and the <span class="math inline">\(F\)</span>-statistic is again insignificant (14.79; <span class="math inline">\(p =1.88 \times 10^{-14}\)</span>). All five lagged <span class="math inline">\(\Delta PCR\)</span> coefficients are economically negligible—typically near zero—and none approach statistical significance. The uniformly weak results indicate that short-term option order flow imbalances do not translate into meaningful differences in announcement-day returns.</p>
+  <p>Taken together, the regression evidence provides a clear and robust conclusion: changes in the Put/Call Ratio do not predict earnings-day stock returns. This finding stands in contrast to earlier studies documenting short-horizon return predictability from buyer-initiated opening order imbalances and suggests that simple aggregate PCR ratios are insufficient to detect informed trading ahead of earnings announcements in modern option markets.</p>
+  <h2 id="implied-volatility-spread-significant-predictive-content">Implied Volatility Spread (Significant Predictive Content)</h2>
+  <p>This section evaluates whether the pre-earnings Implied Volatility Spread predicts announcement-period stock returns. Evidence is presented separately for economic ordering (Table <a href="#tab:ivsorts" data-reference-type="ref" data-reference="tab:ivsorts">4</a>) and statistical significance from cross-sectional regressions (Table <a href="#tab:ivregs" data-reference-type="ref" data-reference="tab:ivregs">5</a>).</p>
+  <div id="tab:ivsorts">
+  <table>
+  <caption>Table 4: Quantile Sorts of Earnings Returns by IV Spread</caption>
+  <thead>
+  <tr class="header">
+  <th style="text-align: left;"><strong>Quintile</strong></th>
+  <th style="text-align: left;"><strong>Pure Reaction</strong> (2010–2023)</th>
+  <th style="text-align: left;"><strong>Pure Reaction</strong> (2001–2023)</th>
+  <th style="text-align: left;"><strong>Pure Drift</strong> (2010–2023)</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr class="odd">
+  <td style="text-align: left;">Q1</td>
+  <td style="text-align: left;">0.003811</td>
+  <td style="text-align: left;">0.001637</td>
+  <td style="text-align: left;">-0.000657</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Q2</td>
+  <td style="text-align: left;">0.001350</td>
+  <td style="text-align: left;">0.003365</td>
+  <td style="text-align: left;">0.000451</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Q3</td>
+  <td style="text-align: left;">0.002161</td>
+  <td style="text-align: left;">0.002775</td>
+  <td style="text-align: left;">-0.000464</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">Q4</td>
+  <td style="text-align: left;">0.005393</td>
+  <td style="text-align: left;">0.004987</td>
+  <td style="text-align: left;">0.000376</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;">Q5</td>
+  <td style="text-align: left;">0.007918</td>
+  <td style="text-align: left;">0.008162</td>
+  <td style="text-align: left;">0.000166</td>
+  </tr>
+  <tr class="even">
+  <td style="text-align: left;">LS</td>
+  <td style="text-align: left;">0.004107</td>
+  <td style="text-align: left;">0.006525</td>
+  <td style="text-align: left;">0.000823</td>
+  </tr>
+  <tr class="odd">
+  <td style="text-align: left;"><strong>Interpretation</strong></td>
+  <td style="text-align: left;">Monotonic ↑</td>
+  <td style="text-align: left;">Monotonic ↑</td>
+  <td style="text-align: left;">Non-monotonic</td>
+  </tr>
+  </tbody>
+  <tfoot>
+      <tr>
+        <td colspan="4" class="note">
+          <p><em>Notes:</em> Pure Reaction returns measure returns from day <span class="math inline">\(T\!-\!1\)</span> to <span class="math inline">\(T\)</span>. Pure Drift returns measure returns from <span class="math inline">\(T\)</span> to <span class="math inline">\(T\!+\!1\)</span>.</p>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+  </div>
+  <div id="tab:ivregs">
+  <h4 id="quantile-sort-evidence.">Quantile Sort Evidence.</h4>
+  <div class="table-wrapper">
+  <table class="reg-table">
+    <caption>
+      <strong>Table 5:</strong> Cross-Sectional Regression of Earnings Returns on IV Spread
+    </caption>
+
+    <thead>
+      <tr>
+        <th style="text-align:left;">Metric</th>
+        <th>Pure Reaction<br>(2010–2023)</th>
+        <th>Pure Reaction<br>(2001–2023)</th>
+        <th>Pure Drift<br>(2010–2023)</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr class="rule-top">
+        <td style="text-align:left;">
+          IV Spread Coefficient<br>
+          (<em>&beta;<sub>1</sub></em>)
+        </td>
+        <td>0.0145</td>
+        <td>0.0152</td>
+        <td>−0.0007</td>
+      </tr>
+
+      <tr>
+        <td style="text-align:left;">P-value</td>
+        <td>0.005</td>
+        <td>0.006</td>
+        <td>0.830</td>
+      </tr>
+
+      <tr>
+        <td style="text-align:left;">R-squared</td>
+        <td>0.002</td>
+        <td>0.002</td>
+        <td>0.000</td>
+      </tr>
+
+      <tr>
+        <td style="text-align:left;">F-statistic (Prob.)</td>
+        <td>7.776&nbsp;(0.00532)</td>
+        <td>7.495&nbsp;(0.00621)</td>
+        <td>0.04601&nbsp;(0.830)</td>
+      </tr>
+
+      <tr class="rule-bottom">
+        <td style="text-align:left;"><strong>Interpretation</strong></td>
+        <td>Significant</td>
+        <td>Significant</td>
+        <td>Not significant</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="4" class="note">
+          <em>Notes:</em> IV Spread is the open-interest-weighted call–put implied volatility
+          difference on day <em>T</em>−1. Standard errors use HC3 corrections.
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+  </div>
+  </div>
+
+  <p>As shown in Table <a href="#tab:ivsorts" data-reference-type="ref" data-reference="tab:ivsorts">4</a>, sorting earnings events into quintiles based on <span class="math inline">\(\text{IVSpread}_{T-1}\)</span> yields a clear monotonic relation in the pure reaction window. Average returns rise steadily from Q1 (most negative spreads) to Q5 (most positive spreads), indicating that more bullish pre-earnings options sentiment corresponds to stronger immediate announcement-day returns. The long–short portfolio (Q5–Q1) delivers a meaningfully positive average return.</p>
+  <h4 id="cross-sectional-regression-evidence.">Cross-Sectional Regression Evidence.</h4>
+  <p>Regression estimates in Table <a href="#tab:ivregs" data-reference-type="ref" data-reference="tab:ivregs">5</a> corroborate the sort-based results. In the pure reaction window, the coefficient on <span class="math inline">\(\text{IVSpread}_{T-1}\)</span> is positive and statistically significant (e.g., <span class="math inline">\(\beta_1 \approx 0.0145\)</span>, <span class="math inline">\(p = 0.005\)</span> for 2010–2023), demonstrating that higher pre-earnings IV spreads predict higher announcement-day returns. While explanatory power is modest, the predictive relationship is statistically robust.</p>
+  <p>In contrast, the pure drift window exhibits no meaningful relationship: coefficients are near zero and insignificant (<span class="math inline">\(p = 0.83\)</span>), and the quintile patterns are weak and non-monotonic. Thus, IV spread predicts the initial reaction to the earnings news but not the subsequent drift.</p>
+  <p>Overall, the findings support Hypothesis 1: pre-earnings options-market sentiment contains information about the immediate earnings-day price reaction.</p>
+  <h2 id="max-pain-shift-1">Max Pain Shift</h2>
+  <p>The paired <span class="math inline">\(t\)</span>-test results indicate a statistically significant shift in the normalized Max Pain level around earnings. The observed test statistic is <span class="math inline">\(t(4383) = 2.274\)</span>, with an associated <span class="math inline">\(p\)</span>-value of 0.023 (Table <a href="#tab:maxpain" data-reference-type="ref" data-reference="tab:maxpain">6</a>). Since the <span class="math inline">\(p\)</span>-value is below the conventional 5% significance threshold, the null hypothesis is rejected. On average, the Max Pain ratio is higher on the announcement day <span class="math inline">\(T\)</span> than on the preceding day <span class="math inline">\(T-1\)</span>, indicating that earnings events disrupt the Max Pain equilibrium.</p>
+  <div class="table-wrapper" id="tab:maxpain">
+  <table class="reg-table">
+    <caption>Table 6: Summary Statistic t-test on Max Pain Shift</caption>
+
+    <thead>
+      <tr>
+        <th style="text-align:left;">Statistic</th>
+        <th style="text-align:center;">Value</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr class="rule-top">
+        <td style="text-align:left;">t-statistic</td>
+        <td style="text-align:center;">2.274</td>
+      </tr>
+
+      <tr>
+        <td style="text-align:left;">P-value</td>
+        <td style="text-align:center;">
+          0.023<span class="math inline">\(^{*}\)</span>
+        </td>
+      </tr>
+
+      <tr class="rule-bottom">
+        <td style="text-align:left;">Degrees of Freedom (df)</td>
+        <td style="text-align:center;">4383</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2" class="note">
+          <em>(<span class="math inline">\(^{*}\)</span>) Significant at the 5% level
+          (<span class="math inline">\(p &lt; 0.05\)</span>).</em>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+  <h2 id="conclusion">Conclusion</h2>
+  <p>This thesis investigates whether option-market characteristics—implied volatility differentials, put–call imbalances, abnormal trading activity, and Max Pain—contain predictive information about stock price reactions to earnings announcements. Using a large sample of 6<span>,</span>592 earnings events for the largest 100 U.S. firms between 2001 and 2023, the analysis reveals several clear patterns.</p>
+  <p>First, changes in aggregate put-call ratios on a firm level have no statistical relationship with announcement-day returns. This suggests that both short-term (volume) and long-term (open interest) sentiment indicators failed to capture informed trading ahead of earnings disclosures. Second, ’rare’ option activity reflected in absolute trading volume and the Volume/OI ratio can effectively identify a group of infrequent yet highly informative pre-announcement indicators. These periods of elevated activity provide significant and economically relevant out-of-sample returns, supporting the notion that unusual option trading intensity signifies heightened information flow prior to earnings announcements. Third, the implied volatility spread is a statistically meaningful predictor of the announcement-day reaction. Higher pre-earnings implied volatility spreads consistently predict more pronounced immediate price reactions, corresponding with implied volatility that indicates directional expectations and strategic positioning. Finally, the Max Pain equilibrium exhibits a significant transition from the day before earnings to the announcement day, indicating that earnings disclosures modify prevailing hedging equilibria and the strike prices implied by option market positioning.</p>
+  <p>Overall, the evidence suggests that volatility- and volume-based metrics provide meaningful insights into the manner in which option markets integrate information related to earnings announcements. These findings contribute to the current body of literature on market microstructure, derivatives pricing, and event-driven trading by illustrating that option markets not only react to corporate news but also, in many cases, predict the direction and magnitude of the underlying asset’s price movement.</p>
+  <h2 id="references">References</h2>
+
+  <div class="references">
+    <div class="ref-item" id="ref-AminLee1997">
+      Amin, K. I., and C. M. Lee, 1997, Option trading, price discovery, and earnings news dissemination, <em>Contemporary Accounting Research</em> 14, 153–192.
+    </div>
+    <div class="ref-item" id="ref-Atilgan2014">
+      Atilgan, Y., 2014, Volatility spreads and earnings announcement returns, <em>Journal of Banking &amp; Finance</em> 38, 205–215.
+    </div>
+    <div class="ref-item" id="ref-BernileGaoHu2017">
+      Bernile, G., F. Gao, and J. Hu, 2017, Center of volume mass: Does aggregate options market opinion predict future equity returns?, Working paper, Singapore Management University.
+    </div>
+    <div class="ref-item" id="ref-Black1975">
+      Black, F., 1975, Fact and fantasy in the use of options, <em>Financial Analysts Journal</em> 31, 36–41.
+    </div>
+    <div class="ref-item" id="ref-Chae2005">
+      Chae, J., 2005, Trading volume, information asymmetry, and timing information, <em>Journal of Finance</em> 60, 413–442.
+    </div>
+    <div class="ref-item" id="ref-ChordiaLinXiang2020">
+      Chordia, T., T. C. Lin, and V. Xiang, 2020, Risk-neutral skewness, informed trading, and the cross-section of stock returns, <em>Journal of Financial and Quantitative Analysis</em>.
+    </div>
+    <div class="ref-item" id="ref-DondersKouwenbergVorst2000">
+      Donders, M. W., R. Kouwenberg, and T. C. Vorst, 2000, Options and earnings announcements: An empirical study of volatility, trading volume, open interest and liquidity, <em>European Financial Management</em> 6, 149–171.
+    </div>
+    <div class="ref-item" id="ref-GeLinPearson2016">
+      Ge, L., T. C. Lin, and N. D. Pearson, 2016, Why does the option to stock volume ratio predict stock returns?, <em>Journal of Financial Economics</em> 120, 601–622.
+    </div>
+    <div class="ref-item" id="ref-JinLivnatZhang2012">
+      Jin, L., J. Livnat, and Y. Zhang, 2012, Option prices leading equity prices: Do option traders have an information advantage?, Working paper.
+    </div>
+    <div class="ref-item" id="ref-JohnsonSo2012">
+      Johnson, T. L., and E. C. So, 2012, The option to stock volume ratio and future returns, <em>Journal of Financial Economics</em> 106, 262–286.
+    </div>
+    <div class="ref-item" id="ref-KimVerrecchia1994">
+      Kim, O., and R. Verrecchia, 1994, Market liquidity and volume around earnings announcements, <em>Journal of Accounting and Economics</em> 17, 41–67.
+    </div>
+    <div class="ref-item" id="ref-LinLu2015">
+      Lin, T. C., and X. Lu, 2015, Why do option prices predict stock returns?, <em>Journal of Banking &amp; Finance</em> 52, 17–28.
+    </div>
+    <div class="ref-item" id="ref-Mayhew1995">
+      Mayhew, S., 1995, Implied volatility, <em>Financial Analysts Journal</em> 51, 8–20.
+    </div>
+    <div class="ref-item" id="PanPoteshman2006">
+      Pan, J., and A. M. Poteshman, 2006, The information in option volume for future stock prices, <em>Review of Financial Studies</em> 19, 871–908.
+    </div>
+    <div class="ref-item" id="TruongCorrado2014">
+      Truong, C., and C. Corrado, 2014, Options trading volume and stock price response to earnings announcements, <em>Review of Accounting Studies</em> 19, 161–209.
+    </div>
+  </div>
+  <script>
+    if (location.hash) {
+      const id = location.hash.substring(1);
+      document.addEventListener("DOMContentLoaded", () => {
+        const el = document.getElementById(id);
+        if (el) el.scrollIntoView({ behavior: "instant", block: "start" });
+      });
+    }
+  </script>
+</div>
+</main>
+</body>
+<script src="../asset/JS/scripts.js"></script>
+</html>

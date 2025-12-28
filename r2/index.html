@@ -1,0 +1,576 @@
+<!DOCTYPE HTML>
+<html data-bs-theme="light">
+
+<head>
+	 <title>Phat Henry Diep</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href=../asset/css/base.css>
+	<link rel="stylesheet" href=../asset/css/main.css>
+	<link rel="stylesheet" href=../asset/css/responsive.css> 
+  <link rel="shortcut icon" type="image/png" href="../asset/media/Phat.png">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    table {
+      margin: 2rem auto;          /* center horizontally */
+      width: auto;
+      max-width: 100%;
+      border-collapse: collapse;
+    }
+    .cite-link {
+      text-decoration: none;
+      color: var(--bs-link-color);
+    }
+
+    .cite-link:hover {
+      text-decoration: underline;
+    }
+    table caption {
+      caption-side: top;
+      text-align: center;
+      font-weight: 600;
+      color: var(--bs-link-color-rgb);
+      margin-bottom: 0.75rem;
+    }
+
+    table th,
+    table td {
+      padding: 0.6rem 0.9rem;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    table th {
+      border-bottom: 2px solid #333;
+    }
+
+    table td {
+      border-bottom: 1px solid #ddd;
+    }
+    main {
+      counter-reset: section;
+    }
+    main p {
+      text-align: justify;
+    }
+    main h1{
+      font-weight: 900;
+    }
+    /* Number h2: 1, 2, 3, ... */
+    main h2 {
+      counter-reset: subsection;
+      font-size: 1.35rem;
+      font-weight: 800;
+      margin-top: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Subsections */
+    main h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-top: 1.6rem;
+      margin-bottom: 0.8rem;
+    }
+
+    /* Sub-subsections */
+    main h4 {
+      counter-reset: subsubsection;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-top: 1.2rem;
+      margin-bottom: 0.6rem;
+    }
+
+
+    main h2::before {
+      counter-increment: section;
+      content: counter(section) ". ";
+      /* font-weight: 600; */
+    }
+
+    /* Number h3: 1.1, 1.2, ... */
+    main h3::before {
+      counter-increment: subsection;
+      content: counter(section) "." counter(subsection) " ";
+    }
+
+    main h4::before {
+      counter-increment: subsubsection;
+      content: counter(section) "." counter(subsection) "." counter(subsubsection) " ";
+    }
+  </style>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['\\(', '\\)'], ['$', '$']],
+        displayMath: [['\\[', '\\]']]
+      },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid flex-lg-column">
+			  <a class="navbar-brand" href="../about.html"> <strong> PHAT (HENRY) DIEP </strong></a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      			<span class="navbar-toggler-icon-light" data-bs-theme=dark></span>
+    		  </button>
+    		  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    		    <div class="offcanvas-header">
+    		      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+    		      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    		    </div>
+    		    <div class="offcanvas-body">
+    		      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+    		          <li class="nav-item">
+						<a class="nav-link" aria-current="page" href="../about.html"> <strong> About Me</strong></a>
+    		          <li class="nav-item">
+						<a class="nav-link" target="_blank" href="asset/media/CV.pdf"> <strong> CV</strong></a>
+					  <li class="nav-item">
+						<a class="nav-link" href="../work.html"><strong> Work Experience</strong></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="../research.html"><strong> Research Papers</strong></a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link"  target="_blank" href="https://www.linkedin.com/in/phat-henry-diep/"> <strong> LinkedIn </strong></a>
+					  </li>
+					  <li class="nav-item"></li>
+					  </li>
+					</ul>
+					<div class="d-none d-lg-block form-check form-switch">
+						<input class="form-check-input" type="checkbox" id="darkModeSwitch" checked>
+						<label class="form-check-label" for="darkModeSwitch">
+							<!-- <i class="bi bi-sun-fill" ></i> -->
+							<i class="bi bi-moon-fill nav-link"></i>
+						</label>
+					</div>
+				</div>
+			  </div>
+			</div>
+		</nav>
+	</header>
+
+<main class="main">
+<div class="content">
+<h1> When the Government Closes: Economic Responses to Federal Shutdowns</h1>
+<p class="author">Phat Diep</p>
+<em>Carnegie Mellon University in Qatar</em><br />
+
+<div class="text-center my-3">
+  <a href="When_the_Government_Closes.pdf"
+     class="btn btn-outline-primary btn-sm"
+     target="_blank"
+     download>
+    <i class="bi bi-file-earmark-pdf"></i> Download Paper (PDF)
+  </a>
+</div>
+<h2 id="introduction">Introduction</h2>
+<p>The 2025 U.S. government shutdown was the longest on record, enduring for 43 days. The shutdown is projected to have incurred an economic cost of up to $14 billion weekly (Morgan, 2025). In the 2013 shutdown, 800,000 federal employees were furloughed, compensation for 1.3 million workers was deferred, and GDP growth decelerated by 0.1–0.2%. The reduction in GDP surpassed the costs related to maintaining government operations (The Economist, 2013).</p>
+<p>Despite the scale of these disruptions, relatively little is known about how high-frequency indicators of real economic activity in the immediate aftermath of shutdown events—especially indicators like the Weekly Economic Index (WEI), which reflects real-time variations in U.S. economic conditions. Instances of political deadlock in the United States, especially government shutdowns, have attracted increased attention from policymakers, investors, and economists. These events denote intervals of considerable fiscal instability, marked by temporary interruptions in government activities, delayed federal disbursements, and heightened concerns within the labour market. Understanding the short-term economic consequences of shutdowns is crucial for assessing their true macroeconomic impact and the risks posed by escalating political deadlocks.</p>
+<h2 id="research-question">Research Question</h2>
+<p><em>Do U.S. government shutdowns induce an immediate and quantifiable impact on overall economic activity, as evidenced by the Weekly Economic Index (WEI)?</em></p>
+<h2 id="literature-review">Literature Review</h2>
+<p>Existing research on U.S. government shutdowns shows significant organisational and macroeconomic disturbances. The Congressional Budget Office determines that extended shutdowns diminish quarterly GDP growth and result in lasting output losses due to deferred expenditures and diminished consumer activity. Research conducted by Baker and Yannelis (2015) analyzes transactional-level financial data from the 2013 shutdown and shows that affected federal employees reduced their daily consumption by 10–15%, underscoring the direct impact of income uncertainty on household behavior. More recent research by Resh et al. (2025) employs a Difference-in-Differences methodology to compare furloughed and funded agencies during the 2018–2019 shutdown, finding significantly higher employee separations among less-tenured and non-permanent staff. Their study demonstrates how shutdowns strain federal organizations and highlights the value of causal identification strategies.</p>
+<p>Table 1 summarizes all major federal government shutdowns since 1980. Democratic and Republican administrations have had single-day shutdowns to the 43-day 2025 shutdown. This historical variation shows that shutdowns are recurring fiscal events that create multiple quasi-experimental episodes for empirical analysis.</p>
+<div class="table-wrapper" id="tab:table2">
+      <table class="reg-table">
+        <caption>
+          <strong>Table 1:</strong> Historical US Government Shutdown Data
+        </caption>
+
+      <thead>
+      <tr class="header">
+      <th style="text-align: left;">Shutdown</th>
+      <th style="text-align: left;">Days</th>
+      <th style="text-align: center;">President</th>
+      <th style="text-align: center;">Party</th>
+      </tr>
+      </thead>
+      <tbody>
+        
+      <tr class="odd">
+      <td style="text-align: left;">1976 Funding Gap (Sept 30 - Oct 11)</td>
+      <td style="text-align: left;">10</td>
+      <td style="text-align: center;">Gerald Ford</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1977 Funding Gap (Sept 30 - Oct 1)</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Jimmy Carter</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1977 Funding Gap (Oct 31 – Nov 9)</td>
+      <td style="text-align: left;">8</td>
+      <td style="text-align: center;">Jimmy Carter</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1977 Funding Gap (Nov 30 – Dec 9)</td>
+      <td style="text-align: left;">9</td>
+      <td style="text-align: center;">Jimmy Carter</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1978 Funding Gap (Sep 30 – Oct 18)</td>
+      <td style="text-align: left;">18</td>
+      <td style="text-align: center;">Jimmy Carter</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1979 Funding Gap (Sept 30 - Oct 12)</td>
+      <td style="text-align: left;">12</td>
+      <td style="text-align: center;">Jimmy Carter</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1980 Shutdown</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Jimmy Carter</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1981 Shutdown (Nov 20-22)</td>
+      <td style="text-align: left;">2</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1982 Shutdown (Sept 30 - Oct 2)</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1982 Shutdown (Dec 17 - 21)</td>
+      <td style="text-align: left;">3</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1983 Shutdown (Nov 10 - 14)</td>
+      <td style="text-align: left;">3</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1984 Shutdown (Sep 30 - Oct 3)</td>
+      <td style="text-align: left;">2</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1984 Shutdown (Oct 3 - 5)</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1986 Shutdown (Oct 16 - 17)</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1987 Shutdown (Dec 18 - 20)</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Ronald Reagan</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1990 Shutdown (Oct 5 - 9)</td>
+      <td style="text-align: left;">3</td>
+      <td style="text-align: center;">George H. W. Bush</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">1995 Shutdown (Nov 14 - 19)</td>
+      <td style="text-align: left;">5</td>
+      <td style="text-align: center;">Bill Clinton</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">1995–96 Shutdown (Dec 16 - Jan 6)</td>
+      <td style="text-align: left;">21</td>
+      <td style="text-align: center;">Bill Clinton</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">2013 Shutdown (Oct 1 - 16)</td>
+      <td style="text-align: left;">16</td>
+      <td style="text-align: center;">Barack Obama</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">2018 Shutdown (Jan 20 - 22)</td>
+      <td style="text-align: left;">3</td>
+      <td style="text-align: center;">Donald Trump</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">2018 Shutdown (Feb 9)</td>
+      <td style="text-align: left;">1</td>
+      <td style="text-align: center;">Donald Trump</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">2018–2019 Shutdown</td>
+      <td style="text-align: left;">35</td>
+      <td style="text-align: center;">Donald Trump</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      <tr class="odd">
+      <td style="text-align: left;">2023 Near-Shutdown</td>
+      <td style="text-align: left;">0 days (averted)</td>
+      <td style="text-align: center;">Joe Biden</td>
+      <td style="text-align: center;">Democratic</td>
+      </tr>
+      <tr class="even">
+      <td style="text-align: left;">2025 Shutdown</td>
+      <td style="text-align: left;">43 days</td>
+      <td style="text-align: center;">Donald Trump</td>
+      <td style="text-align: center;">Republican</td>
+      </tr>
+      </tbody>
+</table>
+<h2 id="research-gap-and-contribution">Research Gap and Contribution</h2>
+<p>Although previous studies have examined the administrative, organisational, and macroeconomic impacts of federal shutdowns, considerably less is understood about their weekly economic effects. Existing research generally relies on quarterly output indicators or administrative data, which are either too infrequent or directly influenced during shutdown periods. Thus, the current literature lacks conclusive evidence concerning the immediate impact of shutdowns on real economic activity.</p>
+<p>This study contributes to the literature by utilising an event-study methodology that leverages the abrupt timing and recurring occurrence of shutdown episodes. Instead of comparing shutdown years to non-shutdown years within a difference-in-difference framework, the event-study methodology evaluates the temporal variations in the WEI during the weeks before and after each shutdown, relative to the week immediately preceding the shutdown. This framework is useful for capturing short-term effects in the absence of a clean, untreated control group.</p>
+<p>Figure 1 presents the causal pathway motivating this approach. Shutdowns are discrete policy shocks that directly affect real economic activity, while seasonality, business-cycle conditions, and weekly reporting structures independently affect shutdown likelihood and economic context. The DAG emphasises that identification requires isolating WEI deviations from background temporal forces. The event-study specification blocks these confounding pathways by including week-of-year and year fixed effects, allowing the estimated coefficients to trace shutdown’s causal effect on near-term economic activity.</p>
+<figure class="figure" id="fig">
+    <img src="dag.png" alt="Directed Acyclic Graph (DAG) on the impact of Shutdown on the Economy" />
+    <figcaption><strong>Figure 1: Directed Acyclic Graph (DAG) on the impact of Shutdown on the Economy</strong></figcaption>
+</figure>
+<h2 id="data-and-methodology">Data and Methodology</h2>
+<h3 class="unnumbered" id="data-sources">Data Sources</h3>
+<p>To study the impact of the government shutdown, it is best to use economic indicators that are driven solely by the shutdown. While it is the ideal condition to study using employment data, traditional weekly labor-market series—such as Initial Jobless Claims and Continued Unemployment Claims—were not consistently reported during the shutdown period, creating gaps in the available data. Figure 2 illustrates this issue by showing a missing interval in the Initial Jobless Claims series from September 20 to October 13. Because of this data discontinuity, the analysis instead relies on the Weekly Economic Index (WEI), which aggregates multiple real-time indicators and remains continuously available throughout the shutdown period.</p>
+<figure class="figure" id="fig">
+    <img src="jobless.png" alt="Weekly Initial Jobless Claims with Missing Observations During Shutdown" />
+    <figcaption><strong>Figure 2: Weekly Initial Jobless Claims with Missing Observations During Shutdown</strong></figcaption>
+</figure>
+<p>The empirical analysis utilises publicly accessible daily and weekly data from the Federal Reserve Economic Data (FRED) database, spanning the years 2008 to 2025. The principal outcome variable is the Weekly Economic Index (WEI), a composite high-frequency metric created by economists at the Federal Reserve Bank of New York. The WEI consolidates ten weekly indicators, including consumer spending, labor market data, production, energy use, etc., to serve as a real-time proxy for U.S. real economic activity. The index is published weekly (concluding on Saturday) and is adjusted to allow interpretation akin to year-over-year real GDP growth; for instance, a WEI value of -2 indicates that real GDP is approximately 2 percentage points lower than in the corresponding week of the previous year.</p>
+<figure class="figure" id="fig">
+    <img src="wei.png" alt="Weekly Economic Index before, during, and after each U.S. federal shutdown from 2013 to 2025" />
+    <figcaption><strong>Figure 3: Weekly Economic Index before, during, and after each U.S. federal shutdown from 2013 to 2025</strong></figcaption>
+</figure>
+
+<p>Figure 3 shows how the Weekly Economic Index behaves starting each shutdown episode before the event-study estimates. Each panel plots the WEI over a window around the shutdown start date, with the shaded region indicating federal operations were halted. In all episodes—2013, 2018, and 2025—the WEI drops immediately after the shutdown begins. Every episode shows a weekly economic activity decline after shutdown, though the magnitude varies. This pattern supports the study’s central hypothesis and motivates the event-study framework used to estimate shutdown dynamics.</p>
+<h3 class="unnumbered" id="empirical-model-and-identification-strategy">Empirical Model and Identification Strategy</h3>
+<p>Shutdowns arise from political stalemates rather than deteriorating macroeconomic conditions, creating plausibly exogenous timing. Because they recur irregularly across years, they provide repeated quasi-experiments suitable for event-study analysis.</p>
+<p>For each shutdown, a symmetric time window is constructed around the start date of the shutdown. Each week is assigned an event-time index relative to the week the shutdown begins, not the week the shutdown ends. Specifically:</p>
+<ul>
+<li><p>event time = 0 denotes the week the shutdown starts.</p></li>
+<li><p>event time <span class="math inline">\(&lt;\)</span> 0 represents the weeks before the shutdown begins.</p></li>
+<li><p>event time <span class="math inline">\(&gt;\)</span> 0 represents the weeks after the shutdown has begun (i.e., weeks during the shutdown), not after the shutdown has ended.</p></li>
+</ul>
+<p>Thus, event time <span class="math inline">\(&gt;\)</span> 0 captures the ongoing impact of a shutdown after it starts, not a post-shutdown recovery period.</p>
+<p>The estimated model is: <span class="math display">\[\label{eq:general_model}
+WEI_{t,e} = \alpha
++ \sum_{\tau \neq -1} \beta_{\tau}\,\mathbf{1}(event\_time_{t,e} = \tau)
++ \gamma_{\text{week}(t)}
++ \delta_{\text{year}(t)}
++ \varepsilon_{t,e}\]</span> <span class="math display">\[\begin{aligned}
+% \intertext{where the summation $\sum_{\tau \neq -1} \beta_{\tau}\,\mathbf{1}(event\_time_{t,e} = \tau)$ expands to:}
+    WEI_{t,e} = \alpha
+            &amp; + \beta_{-8}\mathbf{1}(event\_time_{t,e} = -8) \\
+            &amp; + \beta_{-7}\mathbf{1}(event\_time_{t,e} = -7) \\
+            &amp; + \dots \\
+            &amp; + \beta_{-2}\mathbf{1}(event\_time_{t,e} = -2) \\
+            &amp; + \beta_{0}\mathbf{1}(event\_time_{t,e} = 0) \\
+            &amp; + \beta_{1}\mathbf{1}(event\_time_{t,e} = 1) \\
+            &amp; + \beta_{2}\mathbf{1}(event\_time_{t,e} = 2) \\
+            &amp; + \beta_{3}\mathbf{1}(event\_time_{t,e} = 3) \\
+            &amp; + \text{(additional event-time indicators)} \\
+            &amp; + \gamma_{\text{week}(t)} \\
+            &amp; + \delta_{\text{year}(t)} \\
+            &amp; + \varepsilon_{t,e}\end{aligned}\]</span> where <span class="math inline">\(t\)</span> is time in weeks; <span class="math inline">\(e\)</span> indexes shutdown events; <span class="math inline">\(\mathbf{1}(event\ time_{t,e}=\tau)\)</span> equals 1 when week <span class="math inline">\(t\)</span> is <span class="math inline">\(\tau\)</span> weeks from the start of shutdown <span class="math inline">\(e\)</span>; <span class="math inline">\(event\_time=-1\)</span> is the reference week, so each <span class="math inline">\(\beta_{\tau}\)</span> measures the change in WEI relative to that week; <span class="math inline">\(\gamma_{\text{week}(t)}\)</span> and <span class="math inline">\(\delta_{\text{year}(t)}\)</span> are week and year fixed effects; <span class="math inline">\(\varepsilon_{t,e}\)</span> is the error term.</p>
+<h2 id="results-and-discussion">Results and Discussion</h2>
+<p>The event-study results, presented in Table 2, show that U.S. government shutdowns generate an immediate decline in high-frequency economic activity once the shutdown begins. All pre-shutdown coefficients (event time = –8 to –2) are small and statistically insignificant (<span class="math inline">\(p\)</span>-values <span class="math inline">\(&gt;\)</span> 0.17), providing no evidence of anticipatory declines before the shutdown starts.</p>
+<div id="tab:event_study_results">
+<table>
+<caption>Event-Study Regression Coefficients (WEI on Shutdown Onset)</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">Estimate</th>
+<th style="text-align: center;">Std. Error</th>
+<th style="text-align: center;">p-value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">event_time = –8</td>
+<td style="text-align: center;">-0.5869</td>
+<td style="text-align: center;">0.9317</td>
+<td style="text-align: center;">0.5735</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = –7</td>
+<td style="text-align: center;">-1.0647</td>
+<td style="text-align: center;">1.0787</td>
+<td style="text-align: center;">0.3964</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = –6</td>
+<td style="text-align: center;">-0.9629</td>
+<td style="text-align: center;">0.6883</td>
+<td style="text-align: center;">0.2563</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = –5</td>
+<td style="text-align: center;">-0.4093</td>
+<td style="text-align: center;">0.3388</td>
+<td style="text-align: center;">0.3135</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = –4</td>
+<td style="text-align: center;">-0.3097</td>
+<td style="text-align: center;">0.7069</td>
+<td style="text-align: center;">0.6910</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = –3</td>
+<td style="text-align: center;">-0.7425</td>
+<td style="text-align: center;">0.5906</td>
+<td style="text-align: center;">0.2977</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = –2</td>
+<td style="text-align: center;">-0.5444</td>
+<td style="text-align: center;">0.3086</td>
+<td style="text-align: center;">0.1759</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = 0</td>
+<td style="text-align: center;">-0.6003</td>
+<td style="text-align: center;">0.3815</td>
+<td style="text-align: center;">0.2137</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = 1</td>
+<td style="text-align: center;"><strong>-1.2431</strong></td>
+<td style="text-align: center;">0.2864</td>
+<td style="text-align: center;"><strong>0.0226*</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = 2</td>
+<td style="text-align: center;">-0.2857</td>
+<td style="text-align: center;">0.1203</td>
+<td style="text-align: center;">0.0981</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = 3</td>
+<td style="text-align: center;">0.0787</td>
+<td style="text-align: center;">0.2151</td>
+<td style="text-align: center;">0.7388</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = 4</td>
+<td style="text-align: center;">-0.3116</td>
+<td style="text-align: center;">0.1805</td>
+<td style="text-align: center;">0.1827</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = 5</td>
+<td style="text-align: center;">-0.7344</td>
+<td style="text-align: center;">0.1483</td>
+<td style="text-align: center;"><strong>0.0158*</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = 6</td>
+<td style="text-align: center;">0.3730</td>
+<td style="text-align: center;">0.1621</td>
+<td style="text-align: center;">0.1049</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = 7</td>
+<td style="text-align: center;">0.4017</td>
+<td style="text-align: center;">0.8099</td>
+<td style="text-align: center;">0.6540</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = 8</td>
+<td style="text-align: center;">-0.3787</td>
+<td style="text-align: center;">0.2151</td>
+<td style="text-align: center;">0.1766</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = 9</td>
+<td style="text-align: center;">-0.2742</td>
+<td style="text-align: center;">0.1247</td>
+<td style="text-align: center;">0.1154</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_time = 10</td>
+<td style="text-align: center;">0.7317</td>
+<td style="text-align: center;">0.3615</td>
+<td style="text-align: center;">0.1361</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">event_time = 11</td>
+<td style="text-align: center;">1.0203</td>
+<td style="text-align: center;">1.0219</td>
+<td style="text-align: center;">0.3916</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Observations</td>
+<td colspan="3" style="text-align: center;"> 72 </td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fixed Effects</td>
+<td colspan="3" style="text-align: center;"> Week (32), Year(5) </td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Clustered SEs</td>
+<td colspan="3" style="text-align: center;"> event_id </td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">RMSE</td>
+<td colspan="3" style="text-align: center;"> 0.1752 </td>
+</tr>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Within <span class="math inline">\(R^2\)</span></td>
+<td colspan="3" style="text-align: center;"> 0.2730 </td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Adj. <span class="math inline">\(R^2\)</span></td>
+<td colspan="3" style="text-align: center;"> -0.3106 </td>
+</tr>
+<tr class="even">
+<td colspan = "4" style="text-align: left;"> <i>*Note: The omitted category is event time = −1 (the week immediately before the shutdown began).
+p-values marked with ∗ indicate statistical significance at the 5% level </i></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Consistent with the descriptive patterns shown earlier in Figure 3, the event-study coefficients confirm a significant decline in WEI in the first week after shutdown onset. Economic activity begins to weaken at event time = 0 (Estimate: <span class="math inline">\(-0.60\)</span>), the week the shutdown starts, but the largest and clearest effect appears at event time = +1 (the first full week after the shutdown has begun). At this point, the WEI falls by approximately <span class="math inline">\(\mathbf{1.24}\)</span> points (Estimate: <span class="math inline">\(-1.24\)</span>, <span class="math inline">\(p\)</span>-value: 0.02) relative to the week immediately before the shutdown began. This estimate is statistically significant and economically meaningful. A 1.24-point drop in the WEI corresponds to roughly a <span class="math inline">\(1.2\%\)</span> reduction in year-over-year GDP growth, or nearly $300 billion in real GDP growth quantity. In subsequent weeks (event time = 2 to 11), the WEI sees positive impacts (some coefficients <span class="math inline">\(&gt;\)</span> 0), but most are close to zero and statistically insignificant.</p>
+<h2 id="conclusion-and-limitations">Conclusion and Limitations:</h2>
+<p>This study examines the immediate economic effects of U.S. government shutdowns using high-frequency data from the Weekly Economic Index and an event-study framework. The findings indicate a distinct and statistically significant reduction of 1.24 points in economic activity during the week following the commencement of a shutdown. When expressed in GDP-equivalent terms, this study signifies a substantial short-term contraction aligned with the disruptions recorded in previous instances.</p>
+<p>It is imperative to recognize several limitations that may impact future research endeavors. Firstly, while government shutdowns have been occurring since 1976, the Weekly Economic Index (WEI) has only been accessible since 2008. This limitation restricts the analysis to more recent events and impedes the capacity for long-term comparisons across several decades. Furthermore, government shutdowns frequently coincide with broader political or fiscal instability, making it challenging to accurately differentiate the effects of shutdowns from concurrent political events. The infrequency of shutdowns, combined with their considerable range in duration, restricts statistical power and complicates the extrapolation of findings beyond the reported cases.</p>
+<h2 id="references">References</h2>
+<p>Baker, S. R., &amp; Yannelis, C. (2015). Income Changes and Consumption: Evidence from the 2013 Federal Government Shutdown. SSRN Electronic Journal. <a href="https://doi.org/10.2139/ssrn.2575461">https://doi.org/10.2139/ssrn.2575461</a></p>
+<p>Morgan, D. (2025, October 29). Federal shutdown could cost US economy up to $14 billion. Reuters. <a href="https://www.reuters.com/sustainability/sustainable-finance-reporting/federal-shutdown-could-cost-us-economy-up-14-billion-2025-10-29/">https://www.reuters.com/sustainability/sustainable-finance-reporting/federal-shutdown-could-cost-us-economy-up-14-billion-2025-10-29/</a></p>
+<p>Peter G. Peterson Foundation. (2023). A Brief History of U.S. Government Shutdowns and Why Other Countries Do Not Have Them. Retrieved from <a href="https://www.pgpf.org/article/a-brief-history-of-us-government-shutdowns-and-why-other-countries-do-not-have-them">https://www.pgpf.org/article/a-brief-history-of-us-government-shutdowns-and-why-other-countries-do-not-have-them</a></p>
+<p>Resh, W. G., Y. Ahn, W. Wang, and K. E. Lee. 2025. “ Employee Turnover Effects of the 2018–2019 United States Federal Government Shutdown.” Public Administration Review 1–15. <a href="https://doi.org/10.1111/puar.70032">https://doi.org/10.1111/puar.70032</a></p>
+<p>The Economist. (2013, October 3). Closed until further notice: The shutdown is bad enough. What follows may be far worse. The Economist. <a href="https://www.economist.com/united-states/2013/10/03/closed-until-further-notice">https://www.economist.com/united-states/2013/10/03/closed-until-further-notice</a></p>
+<p>Trading Economics. (n.d.). United States jobless claims. <a href="https://tradingeconomics.com/united-states/jobless-claims">https://tradingeconomics.com/united-states/jobless-claims</a></p><script src="../asset/JS/scripts.js"></script>
+		</div>
+	</main>
+  <script src="asset/JS/scripts.js"></script>
+</body>
+</html>

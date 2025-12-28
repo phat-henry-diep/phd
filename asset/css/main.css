@@ -119,11 +119,6 @@ i {
     font-size: 0.9rem;
     font-weight: normal;
 }
-.certi{
-    padding-bottom: 0.2rem;
-    /* color:rgb(93, 134, 255); */
-    color:var(--cmu-color);
-}
 
 .navbar-toggler-icon-light {
     display: inline-block;
@@ -134,4 +129,36 @@ i {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+}
+figure {
+    max-width: 900px;
+    /* margin: 2rem auto; */
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+
+.references {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.ref-item {
+    text-align: justify;
+    padding-left: 2.5em;
+    text-indent: -2.5em;
+    margin-bottom: 0.6rem;
 }
